@@ -1,0 +1,29 @@
+.registerContainer{
+    width: 400px;
+        
+        background-color: rgb(50, 47, 47);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+}
+    
+    .registerContainer input{
+        padding: 10px 30px;
+        border-radius: 2px;
+        border: none;
+        color: grey;
+    }
+    .registerContainer button{
+        padding: 8px 90px;
+        border-radius: 10px;
+        background-color: blue;
+        border: none;
+    }
+    .registerContainer .link{
+        background-color: inherit;
+        color: inherit;
+        padding-bottom: 20px;
+    }
